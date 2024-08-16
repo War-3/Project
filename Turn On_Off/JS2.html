@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: brown;
+            color:aliceblue;
+            border:none
+        }
+    </style>
+</head>
+<body>
+    <h1>Walter Electronic Bulbs </h1>
+    <button onclick="document.getElementById('myImage').style.width='50%'">Image ZoomIn</button>
+    <button onclick="document.getElementById('myImage').style.width='10%'">Image ZoomOut</button>
+    <br>
+    <button onclick="document.getElementById('myImage').src='./imges/Bulbon.jpg'">Switch on</button>
+    <img id="myImage" src="./imges/Bulboff.jpg" alt="Bulb" width="10%">
+    <button onclick="document.getElementById('myImage').src='/imges/Bulboff.jpg'"> Switch Off</button>
+  
+    
+    <script ></script>
+</body>
+</html>
